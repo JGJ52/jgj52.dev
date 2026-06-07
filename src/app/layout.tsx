@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {Fredoka, Poppins, Rubik} from "next/font/google";
 import "./globals.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 const poppins = Poppins({
   variable: "--poppins",

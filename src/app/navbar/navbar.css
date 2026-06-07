@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+    height: calc(100vh - 62px);
+    margin-top: 62px;
+}
+
+nav {
+    @apply w-full fixed top-0 flex flex-row justify-between items-center pl-2 pr-2;
+    height: 60px;
+    border-bottom: 2px solid gray;
+}
+
+.nav-button {
+    @apply h-12 p-2 flex items-center justify-center cursor-pointer gap-1.5 min-w-16 flex-row rounded-lg;
+    transition: background-color 400ms ease;
+}
+
+.nav-button:hover {
+    background-color: rgba(200, 200, 255, 0.4);
+    transition: background-color 200ms ease;
+}
