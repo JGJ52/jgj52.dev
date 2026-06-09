@@ -2,5 +2,28 @@
 
 .project {
     @apply flex flex-col rounded-2xl bg-black p-4;
+    animation: scale 500ms ease-in-out;
+    transition: transform 500ms ease-in-out, background-color 500ms ease-in-out, box-shadow 500ms ease-in-out;
+    transform: translateY(0);
+}
 
+.project:hover {
+    transition: transform 200ms ease-in-out, background-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+    transform: translateY(-10px);
+    background-color: #211a1d;
+    box-shadow: 0 10px #000000;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+
+    70% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
