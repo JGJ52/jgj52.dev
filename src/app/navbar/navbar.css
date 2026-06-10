@@ -9,6 +9,7 @@ nav {
     @apply w-full fixed top-0 flex flex-row justify-between items-center pl-2 pr-2;
     height: 60px;
     border-bottom: 2px solid gray;
+    background-color: inherit;
 }
 
 .nav-button {

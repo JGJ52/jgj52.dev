@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .project {
-    @apply flex flex-col rounded-2xl bg-black p-4;
+    @apply flex flex-col rounded-2xl bg-black;
     animation: scale 500ms ease-in-out;
     transition: transform 500ms ease-in-out, background-color 500ms ease-in-out, box-shadow 500ms ease-in-out;
     transform: translateY(0);
