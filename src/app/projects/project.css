@@ -1,4 +1,4 @@
-@import "../../../node_modules/tailwindcss/dist/lib.d.mts";
+@import "tailwindcss";
 
 .project {
     @apply flex flex-col rounded-2xl bg-black p-4 max-w-104;
