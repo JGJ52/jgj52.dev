@@ -23,7 +23,7 @@ export default function Projects() {
 
     return (
         <>
-            <div className="flex flex-col items-center justify-between pt-12">
+            <div className="flex flex-col items-center justify-between pt-12 self-center">
                 <p className={"text-4xl rubik"}>My projects</p>
                 <div className="flex flex-wrap mt-12 gap m-4 gap-4">
                     {projects.map((project) => (
